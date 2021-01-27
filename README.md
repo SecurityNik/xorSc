@@ -18,10 +18,12 @@ Once you run the code, your output will look as shown below.
 
 # Sample Output
 
-
 [*] XOR Encoder / Decoder
+
 [*] Author: Nik Alleyne
+
 [*] Blog: www.securitynik.com
+
 [*] XORing 53 bytes of Shellcode with key 0xa
 *****************************************************
 [*] Finished encoding all 53 bytes
