@@ -1,4 +1,4 @@
-# xorSc.py
+# xorSc
 Script to perform XOR operations on each byte within shellcode
 
 # Usage
