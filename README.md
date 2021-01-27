@@ -18,6 +18,7 @@ Once you run the code, your output will look as shown below.
 
 # Sample Output
 
+
 [*] XOR Encoder / Decoder
 [*] Author: Nik Alleyne
 [*] Blog: www.securitynik.com
