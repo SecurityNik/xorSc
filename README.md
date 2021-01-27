@@ -9,14 +9,14 @@ https://www.commandlinefu.com/commands/view/6051/get-all-shellcode-on-binary-fil
 
 Replace my shellcode with yours if you are using this by putting shellcode between the two quotes (') after the 'b' and before the closing bracket
 
-# raw_sc = bytearray(b'\xeb\x17\x31\xc0\xb0\x04\x31\xdb\xb3\x01\x59\x31\xd2\xb2\x19\xcd\x80\x31\xc0\xb0\x01\x31\xdb\xcd\x80\xe8\xe4\xff\xff\xff\x48\x65\x6c\x6c\x6f\x20\x53\x65\x63\x75\x72\x69\x74\x79\x4e\x69\x6b\x57\x6f\x72\x6c\x64\x21')
+## raw_sc = bytearray(b'\xeb\x17\x31\xc0\xb0\x04\x31\xdb\xb3\x01\x59\x31\xd2\xb2\x19\xcd\x80\x31\xc0\xb0\x01\x31\xdb\xcd\x80\xe8\xe4\xff\xff\xff\x48\x65\x6c\x6c\x6f\x20\x53\x65\x63\x75\x72\x69\x74\x79\x4e\x69\x6b\x57\x6f\x72\x6c\x64\x21')
     
 Once you replace tbe bytes, specify your key in the variable below if needed. There is nothing wrong with using the one I have there.
-# xor_key = 0x0A
+## xor_key = 0x0A
 
 Once you run the code, your output will look as shown below.
 
-# Sample Output
+## Sample Output
 
 [*] XOR Encoder / Decoder
 
@@ -33,14 +33,16 @@ Once you run the code, your output will look as shown below.
 
 [*] XORd data in comma separated bytes
 0xe1,0x1d,0x3b,0xca,0xba,0xe,0x3b,0xd1,0xb9,0xb,0x53,0x3b,0xd8,0xb8,0x13,0xc7,0x8a,0x3b,0xca,0xba,0xb,0x3b,0xd1,0xc7,0x8a,0xe2,0xee,0xf5,0xf5,0xf5,0x42,0x6f,0x66,0x66,0x65,0x2a,0x59,0x6f,0x69,0x7f,0x78,0x63,0x7e,0x73,0x44,0x63,0x61,0x5d,0x65,0x78,0x66,0x6e,0x2b,
- [!] DO NOT COPY THE FINAL",". Thanks! 
+ 
+[!] DO NOT COPY THE FINAL",". Thanks! 
 
 [*] XORd data in hex stream
 e11d3bcabae3bd1b9b533bd8b813c78a3bcabab3bd1c78ae2eef5f5f5426f6666652a596f697f78637e734463615d6578666e2b
 
 [*] XORd data in escaped format
 \xe1\x1d\x3b\xca\xba\xe\x3b\xd1\xb9\xb\x53\x3b\xd8\xb8\x13\xc7\x8a\x3b\xca\xba\xb\x3b\xd1\xc7\x8a\xe2\xee\xf5\xf5\xf5\x42\x6f\x66\x66\x65\x2a\x59\x6f\x69\x7f\x78\x63\x7e\x73\x44\x63\x61\x5d\x65\x78\x66\x6e\x2b\x
- [!] DO NOT COPY THE FINAL "\x". Thanks! 
+ 
+[!] DO NOT COPY THE FINAL "\x". Thanks! 
  
  
  Have fun!
