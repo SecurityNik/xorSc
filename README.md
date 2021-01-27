@@ -16,6 +16,8 @@ Once you replace tbe bytes, specify your key in the variable below if needed. Th
 
 Once you run the code, your output will look as shown below.
 
+# Sample Output
+
 [*] XOR Encoder / Decoder
 [*] Author: Nik Alleyne
 [*] Blog: www.securitynik.com
